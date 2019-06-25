@@ -1,4 +1,4 @@
-package searching_sorting
+package searching
 
 // The time complexity is O(logN)
 // for sorted array
