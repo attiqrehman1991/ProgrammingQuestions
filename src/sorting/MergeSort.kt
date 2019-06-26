@@ -23,15 +23,15 @@ fun mergeSort(array: Array<Int>, start: Int, end: Int) {
 }
 
 fun merge(array: Array<Int>, start: Int, mid: Int, end: Int) {
-    val startArray = array.copyOfRange(start, mid + 1)
+    val leftArray = array.copyOfRange(start, mid + 1)
     val rightArray = array.copyOfRange(mid + 1, end + 1)
 
     var i = 0
     var j = 0
 
     for (k in start..end) {
-        if ((i <= startArray.size - 1) && ((j >= rightArray.size) || (startArray[i] <= rightArray[j]))) {
-            array[k] = startArray[i];
+        if ((i <= leftArray.size - 1) && ((j >= rightArray.size) || (leftArray[i] <= rightArray[j]))) {
+            array[k] = leftArray[i];
             i++
         } else {
             array[k] = rightArray[j];
