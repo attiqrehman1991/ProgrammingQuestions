@@ -31,6 +31,5 @@ fun findAnagrams(words: MutableList<String>?): Map<String, MutableList<String>>?
             anagrams.put(sorted, list)
         }
     }
-
     return anagrams
 }
