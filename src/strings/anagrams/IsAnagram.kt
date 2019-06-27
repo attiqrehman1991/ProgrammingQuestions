@@ -1,4 +1,4 @@
-package strings
+package strings.anagrams
 
 /**
  * Anagram functions
@@ -19,7 +19,7 @@ fun isAnagramDirect(string1: String, string2: String): Boolean {
     return one == two
 }
 
-fun isAnagramFun(string1: String, string2: String): Boolean {
+private fun isAnagramFun(string1: String, string2: String): Boolean {
     if (string1.length != string2.length)
         return false
 
