@@ -23,20 +23,9 @@ fun main() {
 
 
     val sorted = hotelCount.toList().sortedBy { (_, value) -> value }.toMap()
-//    val sorted= hotelCount.toList().sortedBy{ it.second }.toMap()
 
     for (entry in sorted) {
         print("key: " + entry.key)
         println(" Value: " + entry.value)
     }
-
-
-//    val sorted:MutableList<MutableSet<MutableMap.MutableEntry<Number, Number>>> = mutableListOf(hotelCount.entries)
-//    var entry:MutableMap.MutableEntry<Int, Int>?
-//    sorted.add(entry)
-
-//    for(hotelEntry in sorted) {
-//        print(hotelEntry.)
-//    }
-
 }

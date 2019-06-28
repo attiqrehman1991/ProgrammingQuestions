@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db23de55-27b9-44b2-92e2-cde3eac664e5" name="Default Changelist" comment="Review is in progress">
-      <change afterPath="$PROJECT_DIR$/src/interestings/DeltaEncoding.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interestings/SpecificWordsiwthReview.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interestings/SumOfNumber.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interestings/SpecificWordsiwthReview.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/interestings/SpecificWordsiwthReview.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strings/anagrams/IsAnagram.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strings/FrequencyofLettersInString.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interestings/SpecificWordsiwthReview.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="220">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/interestings/SumOfNumber.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -158,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/strings/anagrams/ListOfAnagrams.kt" />
         <option value="$PROJECT_DIR$/src/interestings/DeltaEncoding.kt" />
         <option value="$PROJECT_DIR$/src/interestings/SpecificWordsiwthReview.kt" />
+        <option value="$PROJECT_DIR$/src/interestings/SumOfNumber.kt" />
       </list>
     </option>
   </component>
@@ -168,8 +170,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
-    <option name="y" value="23" />
+    <option name="x" value="199" />
+    <option name="y" value="183" />
     <option name="width" value="1039" />
     <option name="height" value="659" />
   </component>
@@ -182,7 +184,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,12 +206,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/trees" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -234,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.interestings.SpecificWordsiwthReviewKt">
+  <component name="RunManager" selected="Kotlin.interestings.SumOfNumberKt">
     <configuration name="LinearSearch" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="ProgrammingQuestions" />
       <option name="VM_PARAMETERS" value="" />
@@ -274,14 +276,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interestings.SpecificWordsiwthReviewKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="interestings.SpecificWordsiwthReviewKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
+      <module name="ProgrammingQuestions" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="Android API 28 Platform" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="interestings.SpecificWordsiwthReviewKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interestings.SumOfNumberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingQuestions" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="interestings.SpecificWordsiwthReviewKt" />
+      <option name="MAIN_CLASS_NAME" value="interestings.SumOfNumberKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,9 +328,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Kotlin.LinearSearch" />
+      <item itemvalue="Kotlin.interestings.SpecificWordsiwthReviewKt" />
+      <item itemvalue="Kotlin.interestings.DeltaEncodingKt" />
+      <item itemvalue="Kotlin.interestings.IsRectangleSquareRombusKt" />
+      <item itemvalue="Kotlin.strings.anagrams.AllAnagramFromArrayStringKt" />
+      <item itemvalue="Kotlin.strings.anagrams.ListOfAnagramsKt" />
+      <item itemvalue="Kotlin.interestings.SumOfNumberKt" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.interestings.SpecificWordsiwthReviewKt" />
+        <item itemvalue="Kotlin.interestings.SumOfNumberKt" />
         <item itemvalue="Kotlin.interestings.DeltaEncodingKt" />
         <item itemvalue="Kotlin.strings.anagrams.ListOfAnagramsKt" />
         <item itemvalue="Kotlin.strings.anagrams.AllAnagramFromArrayStringKt" />
@@ -382,10 +406,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="23" width="1039" height="659" extended-state="0" />
+    <frame x="199" y="183" width="1039" height="659" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2657974" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27081245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -474,10 +498,16 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/interestings/SpecificWordsiwthReview.kt</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/interestings/SumOfNumber.kt</url>
+          <line>3</line>
           <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/interestings/SumOfNumber.kt</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -678,8 +708,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interestings/SpecificWordsiwthReview.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="220">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interestings/SumOfNumber.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
