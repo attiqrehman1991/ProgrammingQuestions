@@ -10,6 +10,7 @@ fun main() {
     println(findAnagrams(list))
 }
 
+
 fun findAnagrams(words: MutableList<String>?): Map<String, MutableList<String>>? {
     val anagrams: Map<String, MutableList<String>>
 
